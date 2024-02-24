@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Personal Blog</title>
+    <link rel="stylesheet" href="content.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <header class="header">
+        <h1>Personal Blog</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Content -->
+      <div class="container">
+        <div class="main-content">
+          <h2>Contact Me</h2>
+          <p>Feel free to reach out to me using the form below:</p>
+          <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="name">School:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button class="button" type="submit">Submit</button>
+          </form>
+        </div>
+        <aside class="sidebar">
+          <h3>Contact Information</h3>
+          <p>Email: pariyarsubash2055@gmail.com</p>
+          <p>Phone: +1 (435)6692055</p>
+        </aside>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; 2024 Personal Blog. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
